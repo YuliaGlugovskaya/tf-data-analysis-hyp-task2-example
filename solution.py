@@ -1,6 +1,5 @@
 #Вторая
 import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
 import scipy.stats as st
 
@@ -12,4 +11,4 @@ def solution(x: np.array, y: np.array) -> bool:
   if pv > 0.09:
     return False
   else:
-    return True
+    return True 
